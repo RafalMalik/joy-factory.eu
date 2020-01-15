@@ -260,6 +260,12 @@ ul.arrow li:before {
     background: #3992ea;
 }
 
+.menu-position.active {
+    margin-top: -5px;
+    border-color: #3992ea;
+    background: #3992ea;
+}
+
 #page-menu {
     background: #538fca;
 }
@@ -329,4 +335,42 @@ ul.arrow li:before {
     color: #fff;
     background-color: #428bca;
     border-color: #357ebd;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.about-main-info p {
+    font-size: 18px;
+}
+
+.separator{
+    width: 60px;
+    height: 5px;
+    background: purple;
+    margin:0px auto 50px auto;
+}
+
+.color-bar {
+    width: 15px;
+    height:5px;
+    float:left;
+}
+
+.color-bar.red {
+    background: #e0402c;
+}
+
+.color-bar.green {
+    background: #65c107;
+}
+
+.color-bar.blue {
+    background: #538fca;
+}
+
+.color-bar.orange {
+    background: #f59e30;
 }
