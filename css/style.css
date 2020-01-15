@@ -324,3 +324,9 @@ ul.arrow li:before {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.btn-buy {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
