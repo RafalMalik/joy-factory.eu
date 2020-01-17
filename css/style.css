@@ -335,6 +335,15 @@ ul.arrow li:before {
     color: #fff;
     background-color: #428bca;
     border-color: #357ebd;
+    transition: all .2s;
+    font-weight:bold;
+    display: inline-block;
+}
+
+.btn-buy:hover {
+    color: #fff;
+    background-color: #36a2ff;
+    border-color: #36a2ff;
 }
 
 .page-title {
@@ -386,4 +395,8 @@ ul.arrow li:before {
 
 .color-bar.orange {
     background: #f59e30;
+}
+
+.item-main-image {
+    margin-bottom: 15px;
 }
